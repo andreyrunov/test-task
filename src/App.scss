@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.give {
+  margin-bottom: 40px;
+  width: 400px;
+  h2 {
+    color: #F0807F;
+    margin-bottom: 10px;
+  }
+
+  &__wrapper {
+
+    display: flex;
+    align-items: center;
+  }
+
+  &__list {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      &__wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border: 1px solid #FFF;
+        cursor: pointer;
+
+        &--active {
+          padding: 5px;
+          border: 1px solid #F0807F;
+          background-color: #F0807F;
+          color: #FFF;
+          cursor: default;
+        }
+      }
+  }
+
+  &__item {
+      // margin-right: 10px;
+  }
+
+  &__input {
+    width: 260px;
+    height: 30px;
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid #a8a5a5;
+    border-radius: 5px 0 0 5px;
+    padding: 5px;
+  }
+
+  &__drop-down {
+    width: 140px;
+    margin-top: 10px;
+    outline: none;
+    height: 30px;
+    border: 1px solid #a8a5a5;
+    border-radius: 0 5px 5px 0;
+    background-color: #FFF;
+  }
+}
+
+.get {
+  margin-bottom: 40px;
+  width: 400px;
+  h2 {
+    color: #F0807F;
+    margin-bottom: 10px;
+  }
+
+  &__wrapper {
+
+    display: flex;
+    align-items: center;
+  }
+
+  &__list {
+      height: 50px;
+      display: flex;
+      align-items: center;
+      &__wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        border: 1px solid #FFF;
+        cursor: pointer;
+
+        &--active {
+          padding: 5px;
+          border: 1px solid #F0807F;
+          background-color: #F0807F;
+          color: #FFF;
+          cursor: default;
+        }
+      }
+  }
+
+  &__item {
+      // margin-right: 10px;
+  }
+
+  &__input {
+    width: 260px;
+    height: 30px;
+    margin-top: 10px;
+    outline: none;
+    border: 1px solid #a8a5a5;
+    border-radius: 5px 0 0 5px;
+    padding: 5px;
+  }
+
+  &__drop-down {
+    width: 140px;
+    margin-top: 10px;
+    outline: none;
+    height: 30px;
+    border: 1px solid #a8a5a5;
+    border-radius: 0 5px 5px 0;
+    background-color: #FFF;
+  }
+}
